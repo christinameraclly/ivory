@@ -66,7 +66,8 @@ function multiplyBy()
         num1 = document.getElementById("firstNumber").value;
         num2 = document.getElementById("secondNumber").value;
         var total = parseInt(num1)  * parseInt(num2);
-        console.log("Rs."+total)
+        var totalprice= (total*5/100)+total;
+        console.log("Rs."+totalprice)
 }
 
 // client pictures
