@@ -2456,6 +2456,14 @@ footer{
 @media screen and (max-width:768px){
 
   
+
+.boby{
+
+  font-family: "Itim", cursive;
+}
+
+
+
   .navbar{
       height: 100px;
 
