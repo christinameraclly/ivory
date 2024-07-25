@@ -190,7 +190,7 @@ transition: 0.5s;
 top: 0;
 left: 0;
 transform: translate(0, 0);
-border-radius: 0;
+border-radius: 20px;
 width: 100%;
 height: 100%;
 box-shadow: 10px 10px 30px #d07538;
@@ -753,6 +753,25 @@ color: #fff;
   overflow: hidden;
 }
 
+.homepage{
+  position: relative;
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+  background: #f37018;
+  text-transform: capitalize;
+  color: #000;
+  border-radius: 20px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  font-size: 18px;
+  cursor: pointer;
+  overflow: hidden;
+  border: 3px f37018 solid;
+}
+
+
+
 .book-now::before{
   content: '';
   position: absolute;
@@ -765,6 +784,20 @@ color: #fff;
   transform: rotate(5deg);
   transition: .5s;
 }
+
+.homepage::before{
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -30px;
+  width: 20px;
+  height: 200%;
+  background: #f37018;
+  opacity: 0.2;
+  transform: rotate(5deg);
+  transition: .5s;
+}
+
 
 .tour-action::before{
   content: '';
@@ -783,6 +816,11 @@ color: #fff;
 .book-now:hover::before{
   left: 100%;
 }
+
+.homepage:hover::before{
+  left: 100%;
+}
+
 
 .tour-action:hover::before{
   left: 100%;
