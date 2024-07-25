@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<title>Book Now</title>
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="css/stule.css" />
+
+
+</head>
+
+<body>
+
+
+	<div id="booking" class="section-1">
+		<div class="section-center-1">
+			<div class="container">
+				<div class="row">
+					<div class="booking-form">
+						<div class="form-header">
+							<h1>Book Now</h1>
+						</div>
+						<form action="/" method="post">
+							<div class="row">
+								<div class="col-sm-6">
+									<div class="form-group">
+										<span class="form-label">Name</span>
+										<input class="form-control" required type="text" placeholder="Enter your name" id="name"
+											name="name">
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="form-group">
+										<span class="form-label">Email</span>
+										<input class="form-control" required type="email" placeholder="Enter your email"
+											id="email" name="email">
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<span class="form-label">Phone</span>
+								<input class="form-control" type="tel" required placeholder="Enter your phone number" id="phone"
+									name="phone">
+							</div>
+
+							<div class="form-group">
+								<label for="" class="form-label">Select Theme</label>
+								<select class="form-control" id="select-theme" id="theme" name="theme" required>
+									<option hidden></option>
+									<option value="Single">Single</option>
+									<option value="Couple">Couple</option>
+									<option value="Family">Family</option>
+									<option value="Group">Group</option>
+									<option value="College">College</option>
+									<option value="Corporate">Corporate</option>
+								</select>
+								<span class="select-arrow"></span>
+							</div>
+
+
+							<div class="form-group">
+								<!-- <span class="form-label">Pickup Location</span> -->
+								<label for="" class="form-label">Select Place</label>
+								<select class="form-control" id="place" name="place" required>
+									<option hidden></option>
+									<option value="1200">Kedarnath</option>
+									<option value="2400">Manali</option>
+									<option value="5000">Goa</option>
+									<option value="1000">Wayanad</option>
+								</select>
+								<span class="select-arrow"></span>
+
+
+							</div>
+
+
+							<div class="form-group" onclick="multiplyBy()">
+								<!-- <span class="form-label">Pickup Location</span> -->
+								<label for="" class="form-label">Select NO.of Members</label>
+								<select class="form-control" id="member" name="member" required>
+									<option hidden></option>
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+								</select>
+
+								<span class="select-arrow"></span>
+
+							</div>
+
+							<div>
+								<label for="" class="form-label">Total Amount:
+									<label for="" id="result" name="result"  class="form-control"></label>
+								</label>
+							</div>
+
+
+
+							<div class="row">
+								<div class="col-sm-5">
+									<div class="form-group">
+										<span class="form-label">Pickup Date</span>
+										<input class="form-control" type="date" required id="date" name="date">
+									</div>
+								</div>
+
+								<div class="form-btn">
+									<button class="submit-btn">Book Now</button>
+								</div>
+						
+
+							
+								
+
+						</form>
+
+
+
+						
+						
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<div>
+	<a href="index.html"><button class="homepage">Home Page</button></a>
+</div>
+	<script>
+
+		function multiplyBy() {
+			num1 = document.getElementById("place").value;
+			num2 = document.getElementById("member").value;
+			document.getElementById("result").innerHTML = num1 * num2;
+		}
+
+	</script>
+
+
+</body>
+
+
+
+</html>
