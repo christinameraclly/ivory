@@ -2419,7 +2419,8 @@ footer{
 
   
   .navbar{
-      height: 100px;
+      height: 70px;
+      
 
   }
 
@@ -2431,13 +2432,17 @@ footer{
       margin: -75px -30px 0 -30px;
   }
   .link-item a{
-      font-size: small ;
+      font-size: x-small ;
       margin: auto;
       display: block;
       line-height: 20px;
+      white-space: nowrap;
+      padding-left: 10px;
+      padding-right: 10px;
   }
 
   .logo{
+    margin-top: 25px;
     height: 40px;
     opacity: 100%;
    
@@ -2563,10 +2568,10 @@ footer{
 .serives-grid1{
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(4, 90px);
+  grid-template-columns: repeat(4, 105px);
   grid-gap: 3px;
   padding-left: 0px;
-  padding-right: 8px;
+  padding-right: 0px;
   /* padding-top: 0px; */
 
 }
@@ -2591,6 +2596,15 @@ footer{
   top: 0px;
   padding-bottom: 10px;
 
+}
+
+.column {
+
+
+  color: #fff;
+  padding-left: 26px;
+  padding-right: 26px;
+  
 }
 
 .overview-h1{
@@ -2673,46 +2687,17 @@ padding-left: 18px;
   transition: 0.25s ease-in-out;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.faq-drawer__content-wrapper {
+  font-size: 1.10em;
+  line-height: 1.4em;
+  max-height: 0px;
+  overflow: hidden;
+  transition: 0.25s ease-in-out;
+  color: #fff;
+  padding-left: 26px;
+  padding-right: 26px;
+  /* border-bottom: outset; */
+}
 
 
   .service-card:nth-child(2){
@@ -2748,8 +2733,8 @@ padding-left: 18px;
 
   .kedar-section-title{
     
-    font-weight: 300;
-    font-size: 30px;
+    font-weight: 200;
+    font-size: 20px;
     right: -15px; 
     
     text-transform: capitalize; 
@@ -2766,8 +2751,8 @@ padding-left: 18px;
 
 .kedar-section-title1{
 
-  font-weight: 300;
-  font-size: 30px;
+  font-weight: 200;
+  font-size: 20px;
   text-transform: capitalize; 
   background: linear-gradient(to top,   #ff6600, 
    #f37018, #ffffff, #eedd44); 
@@ -2795,6 +2780,9 @@ padding-left: 18px;
     left: 0;
     text-align: center;
   }
+
+
+
 
 
 
