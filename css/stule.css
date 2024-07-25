@@ -1192,8 +1192,9 @@ vertical-align: top;
 }
 
 .icon1{
-font-size: 50px;
+font-size: 40px;
 color:  #f37018;
+padding-bottom: 50px;
 
 }
 
@@ -1207,6 +1208,8 @@ padding: 4px 20px 0px 20px;
 .address-line {
 margin-top: 40px;
 }
+
+
 
 .col-1 {
 width: 530px;
