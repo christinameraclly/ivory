@@ -114,7 +114,7 @@ body{
   padding: 20px;
   margin-top: -10px;
   font-weight: 400;
-  font-family: "Itim", cursive;
+ 
 
   
 }
@@ -225,7 +225,7 @@ width: 300px;
 text-align: left;
 color: #eee;
 transform: translate(0, -50%);
-/* font-family: system-ui; */
+
 display: none;
 
 
@@ -272,7 +272,9 @@ animation: animate 1s ease-in-out 0.3s 1 forwards;
 .des{
   color: #000;
   font-weight: bold;
-  font-weight: 400;
+  font-size: large;
+  line-height: 25px;
+
 
 }
 
@@ -445,7 +447,8 @@ color: #fff;
   display: block;
   margin: 30px auto;
   text-align: justify;
-  line-height: 25px;
+  line-height: 30px;
+  font-size: larger;
   opacity: 0.6;
  
 
@@ -1379,7 +1382,7 @@ object-position: center;
 
 
 .kedar-section-title{
-  font-family: 'Roboto Slab', serif;
+
   font-weight: 300;
   font-size: 80px;
   right: -15px; 
@@ -1391,6 +1394,7 @@ object-position: center;
   position: relative;
   top: -110px;
   letter-spacing: 0.10cap;
+  padding-bottom: 20px;
 
 }
 
@@ -1407,7 +1411,7 @@ object-position: center;
 }
 
 .kedar-section-title1{
-  font-family: 'Roboto Slab', serif;
+
   font-weight: 300;
   font-size: 80px;
   text-transform: capitalize; 
@@ -1420,6 +1424,7 @@ object-position: center;
   letter-spacing: 0.10cap;
   right: -120px; 
   padding-top: -50px;
+  
 
 }
 
@@ -1596,10 +1601,11 @@ object-position: center;
   text-align: justify;
   text-transform: capitalize;
   margin: 20px 0;
-  font-size: 18px;
+  font-size:large ;
   color: white;
   padding-left: 100px;
   padding-right: 100px;
+  line-height: 30px;
 }
 
 
@@ -1702,9 +1708,10 @@ cursor:pointer;
   margin-bottom: 30px;
 }
 
+
 .faq-drawer__content-wrapper {
-  font-size: 1.10em;
-  line-height: 1.4em;
+  font-size:large;
+  line-height: 30px;
   max-height: 0px;
   overflow: hidden;
   transition: 0.25s ease-in-out;
@@ -1787,6 +1794,7 @@ span{
   color: #fff;
   padding-left: 100px;
   padding-right: 100px;
+  
   
 }
 
@@ -1929,7 +1937,7 @@ li{
 }
 
 .seasonhead{
-  font-family: 'Roboto Slab', serif;
+ 
   font-weight:bold;
   font-size: 80px;
   /* right: -15px;  */
@@ -2311,9 +2319,7 @@ footer{
 @media screen and (max-width:768px){
 
 
-  .body{
-    font-family: "Itim", cursive;
-  }
+
 
   .container{
     position: absolute;
@@ -2548,11 +2554,6 @@ footer{
 
   
 
-.boby{
-
-  font-family: "Itim", cursive;
-}
-
 
 
   .navbar{
@@ -2654,7 +2655,7 @@ footer{
       }
 
       body{
-        font-family: "Itim", cursive;
+     
         font-weight: 400;
         font-style: normal;
         background: #000000;
@@ -2676,6 +2677,7 @@ footer{
   }
   .section-para{
       width: 100%;
+     
       
   }
   .tours-container{
@@ -2811,47 +2813,6 @@ padding-left: 18px;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   .service-card:nth-child(2){
       margin-top: 0;
   }
@@ -2968,7 +2929,7 @@ padding-left: 18px;
 
 
     .kedar-section-title{
-      font-family: 'Roboto Slab', serif;
+     
       font-weight: 300;
       font-size: 50px;
       right: -15px; 
@@ -2985,7 +2946,7 @@ padding-left: 18px;
   }
   
   .kedar-section-title1{
-    font-family: 'Roboto Slab', serif;
+   
     font-weight: 300;
     font-size: 50px;
     text-transform: capitalize; 
@@ -3081,7 +3042,7 @@ padding-left: 18px;
   color: #000000;
   text-decoration: none;
   padding: 45px 45px;
-  font-family:'Roboto Slab';
+
   font-weight: lighter;
   font-size: 18px;
   letter-spacing: 1px;
