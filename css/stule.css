@@ -1194,15 +1194,20 @@ vertical-align: top;
 .icon1{
 font-size: 40px;
 color:  #f37018;
-padding-bottom: 20px;
+
 
 }
 
+.ico{
+  padding-bottom: 20px;
+}
 
 
 .contact-info {
-display: inline-block;
+display:contents;
 padding: 4px 20px 0px 20px;
+
+
 }
 
 .address-line {
@@ -1982,6 +1987,8 @@ padding-left: 330px;
   font-size:2em;
   margin:0% 1%;
   }
+
+ 
   
  
 /*************footer End*****************/
