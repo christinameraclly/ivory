@@ -2060,6 +2060,47 @@ footer{
 
 
 
+
+
+.terms{
+  color: #f37018;
+  text-align: center;
+  font-size: 80px;
+  
+  
+}
+
+.condition{
+  color: #fff;
+  padding-left: 70px;
+  padding-top: 100px;
+  font-size: xx-large;
+}
+
+.underline{
+  text-decoration: underline;
+  text-decoration-color: #f37018;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 1400px){
 
 
