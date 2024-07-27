@@ -239,7 +239,7 @@ display: block;
 
 
 .content .name{
-font-size: 40px;
+font-size: 69px;
 text-transform: uppercase;
 font-weight: bold;
 opacity: 0;
@@ -259,6 +259,7 @@ animation: animate 1s ease-in-out 1 forwards;
   top: -60px;
   font-weight: 400;  
 
+
 }
 
 .content .des{
@@ -272,8 +273,9 @@ animation: animate 1s ease-in-out 0.3s 1 forwards;
 .des{
   color: #000;
   font-weight: bold;
-  font-size: large;
-  line-height: 25px;
+  font-size: 22px;
+  line-height: 35px;
+  padding-top: 20px;
 
 
 }
@@ -296,11 +298,11 @@ ul li{
 } */
 
 label{
-  font-size: larger;
+  font-size: 23px;
 }
 
 p{
-  font-size: larger;
+  font-size: 23px;
 }
 
 
