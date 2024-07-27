@@ -286,15 +286,34 @@ opacity: 0;
 animation: animate 1s ease-in-out 0.6s 1 forwards;
 }
 
+ul li{
+  font-size: larger;
+}
+
+/* ul li>li{
+  font-size: larger;
+} */
+
+label{
+  font-size: larger;
+}
+
+p{
+  font-size: larger;
+}
+
 
 .overvu{
   color: #f37018;
   text-align: justify;
   padding-left: 550px;
   text-decoration: none;
-  line-height: 30px;
+  line-height: 40px;
   font-size: larger;
 }
+
+
+
 
 .why{
   color: white;
@@ -303,8 +322,18 @@ animation: animate 1s ease-in-out 0.6s 1 forwards;
   padding-right: 130px;
   line-height: 30px;
   font-size: larger;
+  line-height: 40px;
 }
 
+
+.itiover{
+  color: white;
+  text-align: justify;
+  padding-left: 130px;
+  padding-top: 30px;
+  font-size: larger;
+  line-height: 35px;
+}
 
 .seemore{
   margin-left: 20px;
@@ -1411,17 +1440,18 @@ object-position: center;
 .kedar-section-title{
 
   font-weight: 300;
-  font-size: xx-large;
+  font-size:100px;
   right: -15px; 
   text-transform: capitalize; 
   background: linear-gradient(to top, #f32170, 
   #f37018, #ffffff, #eedd44); 
           -webkit-text-fill-color: transparent; 
           -webkit-background-clip: text; 
-  position: relative;
+  position:relative;
   top: -110px;
   letter-spacing: 0.10cap;
   padding-bottom: 20px;
+  padding-left: 100px;
 
 }
 
@@ -1440,7 +1470,7 @@ object-position: center;
 .kedar-section-title1{
 
   font-weight: 300;
-  font-size: x-large;
+  font-size: 80px;
   text-transform: capitalize; 
   background: linear-gradient(to top,   #ff6600, 
    #f37018, #ffffff, #eedd44); 
@@ -1619,8 +1649,10 @@ object-position: center;
   color: #f37018;
   /* padding-top: 30px; */
   font-size: xx-large;
-  padding-left: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
   padding-top: 80px;
+  line-height: 40px;
 
 }
 
@@ -1628,25 +1660,53 @@ object-position: center;
   text-align: justify;
   text-transform: capitalize;
   margin: 20px 0;
-  font-size:large ;
+  font-size:larger ;
   color: white;
   padding-left: 100px;
   padding-right: 100px;
-  line-height: 30px;
+  line-height: 40px;
 }
 
 
 
+.overview-content1{
+  text-align: justify;
+  text-transform: capitalize;
+  margin: 20px 0;
+  font-size:xx-large ;
+  color: white;
+  padding-left: 100px;
+  padding-right: 100px;
+  line-height: 40px;
+}
 
 
 
 .overview-h2{
 color: white;
 padding-top: 30px;
-padding-left: 25px;
-font-size: x-large;
+padding-left: 100px;
+padding-right: 100px;
+font-size: larger;
+line-height: 40px;
 
 }
+
+
+
+.overview-h21{
+  color: white;
+  padding-top: 30px;
+
+  padding-right: 100px;
+  font-size: larger;
+  line-height: 30px;
+ 
+  
+  }
+  
+
+
 
 
 
@@ -1813,6 +1873,8 @@ input[type="checkbox"] {
 
 span{
   color:#f37018 ;
+  font-size: 25px;
+
 }
 
 
@@ -2005,7 +2067,7 @@ li{
 
 .aling{
   text-align: center;
-  line-height: 0.7cm;
+  line-height: 40px;
 }
 
 /* goa itinery */
@@ -2014,7 +2076,7 @@ li{
   border: #f37018;
   padding: 10px;
   border-style: solid;
-  line-height: 0.7cm;
+  line-height:40px;
 }
 
 
@@ -2971,47 +3033,6 @@ padding-left: 18px;
 
 
 
-
-  @media screen and (max-width: 1400px){
-
-
-    .kedar-section-title{
-     
-      font-weight: 300;
-      font-size: 50px;
-      right: -15px; 
-      text-transform: capitalize; 
-      background: linear-gradient(to top, #f32170, 
-      #f37018, #ffffff, #eedd44); 
-              -webkit-text-fill-color: transparent; 
-              -webkit-background-clip: text; 
-      position: relative;
-      top: -200px;
-      letter-spacing: 0.10cap;
-      bottom: 0;
-   
-  }
-  
-  .kedar-section-title1{
-   
-    font-weight: 300;
-    font-size: 50px;
-    text-transform: capitalize; 
-    background: linear-gradient(to top,   #ff6600, 
-     #f37018, #ffffff, #eedd44); 
-  -webkit-text-fill-color: transparent; 
-  -webkit-background-clip: text; 
-    position: relative;
-    top: -220px;
-    letter-spacing: 0.10cap;
-    right: -120px; ;
-    padding-top: -50px;
-    bottom: 0;
-  
-  }
-  
-  
-  }
 
   @media(max-width: 767px) {
     .flash-GIF {
