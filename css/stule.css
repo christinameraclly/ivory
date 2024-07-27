@@ -287,9 +287,23 @@ animation: animate 1s ease-in-out 0.6s 1 forwards;
 }
 
 
+.overvu{
+  color: #f37018;
+  text-align: justify;
+  padding-left: 550px;
+  text-decoration: none;
+  line-height: 30px;
+  font-size: larger;
+}
 
-
-
+.why{
+  color: white;
+  text-align: justify;
+  padding-left: 130px;
+  padding-right: 130px;
+  line-height: 30px;
+  font-size: larger;
+}
 
 
 .seemore{
