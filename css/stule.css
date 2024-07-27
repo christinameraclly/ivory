@@ -303,6 +303,7 @@ label{
 
 p{
   font-size: 23px;
+  line-height: 40px;
 }
 
 
@@ -1698,7 +1699,7 @@ u{
   text-align: justify;
   text-transform: capitalize;
   margin: 20px 0;
-  font-size:23px ;
+  font-size:30px ;
   color: white;
   padding-left: 100px;
   padding-right: 100px;
