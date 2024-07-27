@@ -287,7 +287,8 @@ animation: animate 1s ease-in-out 0.6s 1 forwards;
 }
 
 ul li{
-  font-size: larger;
+  font-size: 23px;
+  line-height: 50px;
 }
 
 /* ul li>li{
@@ -648,7 +649,7 @@ color: #fff;
   display: grid;
   grid-template-columns: repeat(4, 250px);
   grid-gap: 5px;
-  padding-left: 120px;
+  padding-left: 150px;
   /* padding-top: 0px; */
 
 }
@@ -804,15 +805,16 @@ color: #fff;
 .book-now3{
   position:absolute;
   padding: 10px 20px;
- bottom: -50px;
+ bottom: -70px;
+ left: 90%;
   
   border:  3px #f37018 solid;
   background: #000;
   text-transform: capitalize;
   color: #fff;
   border-radius: 20px;
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
   font-size: 18px;
   cursor: pointer;
   overflow: hidden;
@@ -1648,7 +1650,7 @@ object-position: center;
   position: relative;
   color: #f37018;
   /* padding-top: 30px; */
-  font-size: xx-large;
+  font-size: 40px;
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 80px;
@@ -1660,20 +1662,24 @@ object-position: center;
   text-align: justify;
   text-transform: capitalize;
   margin: 20px 0;
-  font-size:larger ;
+  font-size:23px ;
   color: white;
   padding-left: 100px;
   padding-right: 100px;
   line-height: 40px;
 }
 
+u{
+  text-decoration: underline;
+  text-decoration-color: #f37018;
 
+}
 
 .overview-content1{
   text-align: justify;
   text-transform: capitalize;
   margin: 20px 0;
-  font-size:xx-large ;
+  font-size:23px ;
   color: white;
   padding-left: 100px;
   padding-right: 100px;
@@ -1687,7 +1693,7 @@ color: white;
 padding-top: 30px;
 padding-left: 100px;
 padding-right: 100px;
-font-size: larger;
+font-size: 25px;
 line-height: 40px;
 
 }
@@ -1873,7 +1879,7 @@ input[type="checkbox"] {
 
 span{
   color:#f37018 ;
-  font-size: 25px;
+  font-size: 23px;
 
 }
 
@@ -2077,6 +2083,7 @@ li{
   padding: 10px;
   border-style: solid;
   line-height:40px;
+  font-size: 23px;
 }
 
 
@@ -2248,168 +2255,6 @@ footer{
 
 
 
-
-
-
-
-
-
-@media screen and (max-width: 1400px){
-
-
-  .container{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 1350px;
-    height: 700px;
-    background: #000000;
-    /* box-shadow: 0 30px 50px #dbdbdb; */
-  }
-  
-  
-  .container .slide .item{
-    width: 200px;
-    height: 300px;
-    position: absolute;
-    top: 50%;
-    transform: translate(0, -50%);
-    border-radius: 20px;
-    /* box-shadow: 0 30px 50px #f37018; */
-    background-position: 50% 50%;
-    background-size: cover;
-    display: inline-block;
-    transition: 0.5s;
-  }
-  
-  .slide .item:nth-child(1),
-  .slide .item:nth-child(2){
-    top: 0;
-    left: 0;
-    transform: translate(0, 0);
-    border-radius: 20px;
-    width: 100%;
-    height: 100%;
-    box-shadow: 10px 10px 30px #d07538;
-  }
-  
-  
-  .slide .item:nth-child(3){
-    left: 75%;
-  }
-  .slide .item:nth-child(4){
-    left: calc(75% + 220px);
-  }
-  .slide .item:nth-child(5){
-    left: calc(50% + 440px);
-    display: none;
-  }
-  
-  /* here n = 0, 1, 2, 3,... */
-  .slide .item:nth-child(n + 6){
-    left: calc(50% + 660px);
-    opacity: 0;
-    
-  }
-  
-
-
-  .item .content{
-    position: absolute;
-    top: 50%;
-    left: 100px;
-    width: 300px;
-    text-align: left;
-    color: #eee;
-    transform: translate(0, -50%);
-    font-weight: 400;
-    font-style: normal;
-    display: none;
-    
-    
-  }
-  
-  
-  .slide .item:nth-child(2) .content{
-    display: block;
-    
-  }
-  
-  
-  .content .name{
-    font-size: 40px;
-    text-transform: uppercase;
-    font-weight: bold;
-    opacity: 0;
-    animation: animate 1s ease-in-out 1 forwards;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .content .des{
-    margin-top: 10px;
-    margin-bottom: 20px;
-    opacity: 0;
-    animation: animate 1s ease-in-out 0.3s 1 forwards;
-  font-weight: 400;
-  font-style: normal;
-  }
-  
-  .content button{
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    opacity: 0;
-    animation: animate 1s ease-in-out 0.6s 1 forwards;
-  }
-  
-  
-  @keyframes animate {
-    from{
-        opacity: 0;
-        transform: translate(0, 100px);
-        filter: blur(33px);
-    }
-  
-    to{
-        opacity: 1;
-        transform: translate(0);
-        filter: blur(0);
-    }
-  }
-  
-  
-  
-  .button{
-    width: 100%;
-    text-align: center;
-    position: absolute;
-    bottom: 60px;
-    
-    
-  }
-  
-  .button button{
-    width: 40px;
-    height: 35px;
-    border-radius: 8px;
-    border: none;
-    cursor: pointer;
-    margin: 0 5px;
-    /* border: 1px solid #ffffff; */
-    transition: 0.3s;
-    background: transparent;
-    color: white;
-   
-  }
-  
-  .button button:hover{
-    background: #e17d3b;
-    color: #fff;
-  }
-
-}
 
 
 
