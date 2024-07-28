@@ -37,6 +37,7 @@ function sendMail() {
       name: document.getElementById("name").value,
       email: document.getElementById("email").value,
       message: document.getElementById("message").value,
+      phone: document.getElementById("phone").value,
     };
   
     const serviceID = "service_yeokr4q";
@@ -47,6 +48,7 @@ function sendMail() {
           document.getElementById("name").value = "";
           document.getElementById("email").value = "";
           document.getElementById("message").value = "";
+          document.getElementById("phone").value = "";
           console.log(res);
           alert("Your message sent successfully!!")
   
