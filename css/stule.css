@@ -881,6 +881,40 @@ color: #fff;
   transition: .5s;
 }
 
+.razorbtn1{
+  position: relative;
+  padding: 10px 20px;
+  left: -530px;
+  top: 55px;
+  
+  
+  background: #f37018;
+  text-transform: capitalize;
+  color: #000000;
+  border-radius: 20px;
+  /* border-top-left-radius: 0;
+  border-bottom-left-radius: 0; */
+  font-size: 23px;
+  cursor: pointer;
+  overflow: hidden;
+  border: 3px black solid;
+  bottom: -38px;
+
+}
+
+.razorbtn1::before{
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -30px;
+  width: 20px;
+  height: 200%;
+  background: #fff;
+  opacity: 0.2;
+  transform: rotate(5deg);
+  transition: .5s;
+}
+
 
 .homepage{
   position: relative;
@@ -968,7 +1002,9 @@ color: #fff;
 .razorbtn:hover::before{
   left: 100%;
 }
-
+.razorbtn1:hover::before{
+  left: 100%;
+}
 
 .homepage:hover::before{
   left: 100%;
