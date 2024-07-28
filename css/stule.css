@@ -273,7 +273,7 @@ animation: animate 1s ease-in-out 0.3s 1 forwards;
 .des{
   color: #ffffff;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 24px;
   line-height: 30px;
   padding-top: 20px;
 
@@ -300,7 +300,7 @@ animation: animate 1s ease-in-out 0.6s 1 forwards;
 }
 
 ul li{
-  font-size: 23px;
+  font-size: 28px;
   line-height: 50px;
 }
 
@@ -309,12 +309,12 @@ ul li{
 } */
 
 label{
-  font-size: 23px;
+  font-size: 28px;
 }
 
 p{
-  font-size: 23px;
-  line-height: 40px;
+  font-size: 28px;
+  line-height: 45px;
 }
 
 
@@ -741,7 +741,7 @@ color: #fff;
   height: 500px;
   filter: grayscale(100%);
 
-  right: 1100px;
+  left: -252px;
 
 }
 
@@ -820,8 +820,8 @@ color: #fff;
 
 .book-now3{
   position:absolute;
-  padding: 10px 20px;
- bottom: -70px;
+  padding: 10px 40px;
+ bottom: -120px;
  left: 90%;
   
   border:  3px #f37018 solid;
@@ -1689,11 +1689,24 @@ object-position: center;
 
 }
 
+.overview-h12{
+  position: relative;
+  color: #f37018;
+  /* padding-top: 30px; */
+  font-size: 40px;
+  text-align: center;
+  /* padding-left: 100px;
+  padding-right: 100px; */
+  padding-top: 80px;
+  line-height: 40px;
+
+}
+
 .overview-content{
   text-align: justify;
   text-transform: capitalize;
   margin: 20px 0;
-  font-size:23px ;
+  font-size:28px ;
   color: white;
   padding-left: 100px;
   padding-right: 100px;
@@ -1710,11 +1723,11 @@ u{
   text-align: justify;
   text-transform: capitalize;
   margin: 20px 0;
-  font-size:30px ;
+  font-size:28px ;
   color: white;
   padding-left: 100px;
   padding-right: 100px;
-  line-height: 40px;
+  line-height: 45px;
 }
 
 
@@ -1724,8 +1737,8 @@ color: white;
 padding-top: 30px;
 padding-left: 100px;
 padding-right: 100px;
-font-size: 25px;
-line-height: 40px;
+font-size: 30px;
+line-height: 45px;
 
 }
 
@@ -1910,7 +1923,7 @@ input[type="checkbox"] {
 
 span{
   color:#f37018 ;
-  font-size: 23px;
+  font-size: 28px;
 
 }
 
@@ -1947,6 +1960,8 @@ li{
 
   padding-bottom: 20px;
   padding-top: 20px;
+  font-size: 28px;
+
 }
 
 
@@ -2256,7 +2271,7 @@ footer{
 .terms{
   color: #f37018;
   text-align: center;
-  font-size: 80px;
+  font-size: 70px;
   
   
 }
