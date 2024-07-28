@@ -262,14 +262,25 @@ animation: animate 1s ease-in-out 1 forwards;
 
 }
 
-.content .des{
+.content .des {
 margin-top: 10px;
 margin-bottom: 20px;
 opacity: 0;
 animation: animate 1s ease-in-out 0.3s 1 forwards;
-  font-weight: 400;
+  font-weight: bold;
 
 }
+
+.content .des1 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  opacity: 0;
+  animation: animate 1s ease-in-out 0.3s 1 forwards;
+    font-weight: bold;
+  
+  }
+
+
 .des{
   color: #ffffff;
   font-weight: bold;
@@ -285,8 +296,8 @@ animation: animate 1s ease-in-out 0.3s 1 forwards;
   font-weight: bold;
   font-size: 24px;
   line-height: 30px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 30px;
+ 
 
 
 }
@@ -820,7 +831,7 @@ color: #fff;
 
 .book-now3{
   position:absolute;
-  padding: 10px 40px;
+  padding: 10px 20px;
  bottom: -120px;
  left: 90%;
   
@@ -1160,7 +1171,7 @@ nav ul {
   text-decoration: none;
   padding: 0.8em 1.8em;
   text-transform: uppercase;
-  font-size: 80%;
+  font-size: 65%;
   letter-spacing: 2px;
   text-shadow: 0 -1px 0 #030303;
   position: relative;
@@ -1296,6 +1307,12 @@ right: 10px;
   padding-bottom: 2%;
     color: #f37018;
   }
+
+  
+  .contact-us1{
+    padding-bottom: 80px;
+     
+    }
   
   .content1 {
   display: flex;
@@ -1367,6 +1384,7 @@ right: 10px;
   border-radius: 30px;
   /* width: 60%; */
   padding-right: -20px;
+  padding-top: 20px;
   
   }
   
@@ -2155,6 +2173,13 @@ li{
 .map{
 padding-left: 330px;
 }
+
+
+.map1{
+  padding-left: 170px;
+  padding-top: 100px;
+  
+  }
 
 
 .contactus{
