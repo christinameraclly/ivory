@@ -489,6 +489,97 @@ img:nth-child(5) {
   animation-delay: 8s;
 }
 
+img:nth-child(6) {
+  animation-delay: 10s;
+  
+}
+img:nth-child(7) {
+  animation-delay: 12s;
+}
+img:nth-child(8) {
+  animation-delay: 14s;
+}
+img:nth-child(9) {
+  animation-delay: 16s;
+}
+
+
+img:nth-child(10) {
+  animation-delay:18s;
+  
+}
+img:nth-child(11) {
+  animation-delay: 20s;
+}
+img:nth-child(12) {
+  animation-delay: 22s;
+}
+img:nth-child(13) {
+  animation-delay: 24s;
+}
+
+img:nth-child(14) {
+  animation-delay:26s;
+  
+}
+img:nth-child(15) {
+  animation-delay: 28s;
+}
+img:nth-child(16) {
+  animation-delay: 30s;
+}
+img:nth-child(17) {
+  animation-delay: 32s;
+}
+
+img:nth-child(18) {
+  animation-delay: 34s;
+  
+}
+img:nth-child(19) {
+  animation-delay: 36s;
+}
+img:nth-child(20) {
+  animation-delay: 38s;
+}
+img:nth-child(21) {
+  animation-delay: 40s;
+}
+
+img:nth-child(22) {
+  animation-delay: 42s;
+  
+}
+img:nth-child(23) {
+  animation-delay: 44s;
+}
+img:nth-child(24) {
+  animation-delay: 46s;
+}
+img:nth-child(25) {
+  animation-delay: 48s;
+}
+
+img:nth-child(26) {
+  animation-delay: 50s;
+  
+}
+img:nth-child(27) {
+  animation-delay: 52s;
+}
+img:nth-child(28) {
+  animation-delay: 54s;
+}
+img:nth-child(29) {
+  animation-delay: 56s;
+}
+img:nth-child(30) {
+  animation-delay: 58s;
+}
+
+
+
+
 
 
 @keyframes animate {
@@ -505,6 +596,7 @@ to{
 }
 }
 
+/* itinary :end */
 
 
 .button{
@@ -2616,6 +2708,66 @@ footer{
   animation-play-state: paused;
 }
 
+
+/* slide3 */
+
+.carousel3 {
+  overflow: hidden;
+  width: 100%;
+}
+
+.carousel-track3 {
+  display: flex;
+  gap: var(--gap-width);
+  animation: scroll var(--scroll-duration) linear infinite;
+}
+
+.slide3 {
+  background: var(--slide-bg-color);
+  flex: 0 0 var(--slide-width);
+  height: var(--slide-height);
+  border-radius: var(--border-radius);
+  position: relative;
+  overflow: hidden;
+}
+
+.slide3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay3 {
+  position: absolute;
+  bottom: 0;
+  background: var(--overlay-bg-color);
+  color: var(--overlay-text-color);
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: var(--overlay-transition);
+  border-radius: var(--border-radius);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide3:hover .overlay3 {
+  opacity: 1;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-1 * var(--total-width)));
+  }
+}
+
+.carousel3:hover .carousel-track3 {
+  animation-play-state: paused;
+}
 
 
 
