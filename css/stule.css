@@ -2917,6 +2917,21 @@ footer{
   
   }
 
+  .name{
+
+    background: linear-gradient(to top, #f32170, 
+    #f37018, #ffffff, #eedd44); 
+            -webkit-text-fill-color: transparent; 
+            -webkit-background-clip: text; 
+    position:absolute;
+    letter-spacing: 0.10cap;
+    top: -60px;
+    font-weight: 400;  
+  
+  
+  }
+
+
   .content .name{
     font-size: 30px;
     text-transform: uppercase;
