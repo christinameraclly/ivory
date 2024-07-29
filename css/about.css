@@ -125,7 +125,7 @@ html{
     align-items: center;
     text-align: center;
     color: #fff;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
 }
 
 .hero-section1 {
@@ -154,7 +154,7 @@ html{
     margin: 0;
     color:  #f37018;
     padding-bottom: 50px;
-    padding-top: 50px;
+    padding-top: 100px;
 }
 
 .whyus1{
@@ -163,7 +163,7 @@ html{
     margin: 0;
     color:  #f37018;
     padding-bottom: 10px;
-    padding-top: 20px;
+    padding-top: 50px;
 }
 
 .hero-content p {
@@ -201,7 +201,7 @@ span{
 }
 
 .about-section h2 {
-    font-size: 2.5em;
+    font-size: 60px;
     margin-bottom: 20px;
 }
 
@@ -209,6 +209,7 @@ span{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    padding-bottom: 100px;
 }
 
 .about-item {
@@ -258,9 +259,9 @@ span{
 }
 
 .card8 {
-    font-size: 2.5em;
+    font-size: 2em;
     margin-bottom: 20px;
-    padding-top: 50px;
+    padding: 50px;
 }
 
 
