@@ -2495,11 +2495,11 @@ footer{
 
   .container{
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 30%;
+    left: 5 0%;
     transform: translate(-50%, -50%);
     width: 420px;
-    height: 800px;
+    height: 850px;
     background: #000000;
     /* box-shadow: 0 30px 50px #dbdbdb; */
   }
@@ -2730,6 +2730,9 @@ footer{
 
   .navbar{
       height: 100px;
+      right: 500px;
+      position: relative;
+      margin-top: 20px;
 
   }
 
@@ -2744,7 +2747,10 @@ footer{
       font-size: small ;
       margin: auto;
       display: block;
-      line-height: 20px;
+      padding-right:0px ;
+      padding-left: 0px;
+      white-space: nowrap;
+    
   }
 
   .logo{
