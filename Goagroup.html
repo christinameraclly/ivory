@@ -125,14 +125,11 @@ Goa, India's smallest state, packs a punch with its unique blend of sun, sand, a
     </section>
 
 
-    
-    <div class="pic-ctn">
-        <img src="img/goa.jpg" alt="" class="pic">
-        <img src="img/goa2.jpg" alt="" class="pic">
-        <img src="img/goa6.jpg" alt="" class="pic">
-        <img src="img/goa7.jpg" alt="" class="pic">
-        <img src="img/goa5.jpg" alt="" class="pic">
-      </div>
+    <br> <br>
+    <br>
+    <div class="carousel" aria-live="polite" aria-label="Image Carousel">
+        <div class="carousel-track"></div>
+    </div>
 
     <section class="itinery" id="itinery">
         <div class="container2">
@@ -644,6 +641,115 @@ Goa, India's smallest state, packs a punch with its unique blend of sun, sand, a
             }
         })
     </script>
+
+    
+<script>
+        
+    document.addEventListener('DOMContentLoaded', () => {
+        const slidesData = [
+          { src: './img/del (1).JPG'},
+          { src: './img/del (2).JPG'},
+          { src: './img/del (3).JPG'},
+          { src: './img/del (4).JPG'},
+         
+            { src: './img/del (5).JPG'},
+            { src: './img/del (6).JPG'},
+            { src: './img/del (7).JPG'},
+          { src: './img/del (8).JPG'},
+         
+      
+          { src: './img/del (9).JPG'},
+          { src: './img/del (10).JPG'},
+          { src: './img/del (11).JPG'},
+        
+          { src: './img/del (13).JPG'},
+          { src: './img/del (14).JPG'},
+         
+            { src: './img/del (15).JPG'},
+            { src: './img/del (16).JPG'},
+            { src: './img/del (17).JPG'},
+          { src: './img/del (18).JPG'},
+         
+      
+          { src: './img/del (19).JPG'},
+          { src: './img/del (20).JPG'},
+          { src: './img/del (21).JPG'},
+          { src: './img/del (22).JPG'},
+          { src: './img/del (23).JPG'},
+          { src: './img/del (24).JPG'},
+         
+            { src: './img/del (25).JPG'},
+            { src: './img/del (26).JPG'},
+            { src: './img/del (27).JPG'},
+          { src: './img/del (28).JPG'},
+         
+      
+          { src: './img/del (29).JPG'},
+          { src: './img/del (30).JPG'},
+          { src: './img/del (31).JPG'},
+          { src: './img/del (32).JPG'},
+          { src: './img/del (33).JPG'},
+          { src: './img/del (34).JPG'},
+         
+            { src: './img/del (35).JPG'},
+            { src: './img/del (36).JPG'},
+        
+         
+            
+        ];
+      
+        const carouselTrack = document.querySelector('.carousel-track');
+      
+        const createSlide = ({ src, description }) => {
+          const slideElement = document.createElement('div');
+          slideElement.className = 'slide3';
+      
+          const imgElement = document.createElement('img');
+          imgElement.src = src;
+          imgElement.alt = description;
+      
+          const overlayElement = document.createElement('div');
+          overlayElement.className = 'overlay3';
+          overlayElement.textContent = description;
+      
+          slideElement.append(imgElement, overlayElement);
+      
+          return slideElement;
+        };
+      
+        const populateCarouselTrack = (slides) => {
+          const fragment = document.createDocumentFragment();
+          slides.forEach(slide3 => fragment.appendChild(createSlide(slide3)));
+      
+          // Duplicate slides to create a seamless loop effect
+          slides.forEach(slide3 => fragment.appendChild(createSlide(slide3)));
+      
+          carouselTrack.appendChild(fragment);
+      
+          const slideWidth = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--slide-width'));
+          const gapWidth = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--gap-width'));
+          const totalWidth = (slideWidth + gapWidth) * slides.length;
+          const duplicatedTotalWidth = totalWidth * 2;
+          const halfTotalWidth = duplicatedTotalWidth / 2;
+      
+          carouselTrack.style.setProperty('--total-width', `${halfTotalWidth}px`);
+      
+          const baseDuration = 40; // secondes | default = 40
+          const baseWidth = 5000; // px | default = 5000
+          const scrollDuration = (halfTotalWidth / baseWidth) * baseDuration;
+      
+          carouselTrack.style.setProperty('--scroll-duration', `${scrollDuration}s`);
+        };
+      
+        populateCarouselTrack(slidesData);
+      });
+      
+    
+    
+    
+    
+        </script>
+    
 
 </body>
 
