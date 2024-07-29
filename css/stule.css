@@ -2711,12 +2711,12 @@ footer{
 
 /* slide3 */
 
-.carousel3 {
+.carousel {
   overflow: hidden;
   width: 100%;
 }
 
-.carousel-track3 {
+.carousel-track {
   display: flex;
   gap: var(--gap-width);
   animation: scroll var(--scroll-duration) linear infinite;
@@ -2765,7 +2765,7 @@ footer{
   }
 }
 
-.carousel3:hover .carousel-track3 {
+.carousel:hover .carousel-track {
   animation-play-state: paused;
 }
 
