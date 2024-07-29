@@ -421,6 +421,12 @@ border-radius: 20px;
   height: 200px;
 }
 
+.pic{
+  width: 700px;
+  height: 360px;
+
+}
+
 @keyframes display {
   0% {
     transform: translateX(200px);
@@ -454,7 +460,7 @@ border-radius: 20px;
 .pic-ctn > img {
   position: absolute;
   top: 0;
-  left: calc(50% - 100px);
+  left: calc(28% - 100px);
   opacity: 0;
   animation: display 10s infinite;
 }
