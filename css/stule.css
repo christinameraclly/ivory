@@ -1705,13 +1705,16 @@ right: 10px;
   .contact-us{
   padding-bottom: 2%;
     color: #f37018;
+    font-size: 35px;
   }
 
   
   .contact-us1{
     padding-bottom: 80px;
-     
+
     }
+
+   
   
   .content1 {
   display: flex;
@@ -1729,11 +1732,9 @@ right: 10px;
   
   font-size: 50px;
   color:  #f37018;
-  
-    flex-direction: column;
-  
-     vertical-align:-webkit-baseline-middle;
-     padding-bottom: 25%;
+  flex-direction: column;
+  vertical-align:-webkit-baseline-middle;
+  padding-bottom: 25%;
   
   }
   
@@ -2891,8 +2892,25 @@ footer{
     display: block;
     
   }
+  .des{
+    color: #000000;
+    font-size: 18px;
+    line-height: 30px;
+    padding-top: 20px;
   
   
+  }
+  
+  .des1{
+    color: #000000;
+    font-size: 18px;
+    line-height: 30px;
+    padding-top: 30px;
+   
+  
+  
+  }
+
   .content .name{
     font-size: 25px;
     text-transform: uppercase;
@@ -3096,12 +3114,15 @@ footer{
     background: #111; 
     color: #fff; 
     text-decoration: none;
-    padding: 0.8em 1.8em;
     text-transform: uppercase;
-    font-size: 40%;
-    letter-spacing: 2px;
+    font-size: 20%;
+    letter-spacing: 1px;
     text-shadow: 0 -1px 0 #030303;
     position: relative;
+    height: 40px;
+    
+    
+    
     
   }
   .nav{  
@@ -3175,10 +3196,28 @@ footer{
       font-size: 16px;
   }
   .section-para{
+   
       width: 100%;
+      min-width: 300px;
+      display: block;
+      margin: 30px auto;
+      text-align: justify;
+      line-height: 35px;
+      font-size: 18px;
+      opacity: 0.6;
+     
+    
+    
      
       
   }
+
+  span{
+    color:#f37018 ;
+    font-size: 18px;
+  
+  }
+  
   .tours-container{
       height: 1200px;
       grid-template-columns: repeat(1, 1fr);
@@ -3229,6 +3268,54 @@ footer{
   top: 0px;
   padding-bottom: 10px;
 
+}
+.section-title{
+  font-size: 35px;
+  font-weight: 600;
+  padding-top: 2%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #f37018;
+}
+
+.section-title1{
+  padding-top: 100px ;
+  padding-bottom: 50px;
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: capitalize;
+  color: #f37018;
+}
+
+.contact-us1 p{
+  padding-bottom: 80px;
+  font-size: 18px;
+  }
+
+
+.globe1{
+  z-index: -3;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  filter: grayscale(100%);
+
+  left: -252px;
+  padding-top: 100px;
+
+}
+
+
+.globe{
+  z-index: -3;
+  position: absolute;
+  right: -252px;
+  width: 300px;
+  height: 300px;
+  transform: scaleX(-1);
+  filter: grayscale(100%);
+  padding-top: 100px;
 }
 
 .overview-h1{
