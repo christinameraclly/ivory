@@ -123,15 +123,12 @@
             Lakshadweep, the group of 36 islands is known for its exotic and sun-kissed beaches and lush green landscape. The name Lakshadweep in Malayalam and Sanskrit means 'a hundred thousand islands'. India's smallest Union Territory Lakshadweep is an archipelago consisting of 36 islands with an area of 32 sq km.  </p>
     </section>
 
-
-    <div class="pic-ctn">
-        <img src="img/lak1.jpg" alt="" class="pic">
-        <img src="img/lak2.jpg" alt="" class="pic">
-        <img src="img/lak3.jpg" alt="" class="pic">
-        <img src="img/lak4.jpg" alt="" class="pic">
-        <img src="img/lak5.jpg" alt="" class="pic">
-      </div>
-
+    <br> <br>
+    <br>
+    <div class="carousel" aria-live="polite" aria-label="Image Carousel">
+        <div class="carousel-track"></div>
+    </div>
+    <br><br>
 
 
     <section class="itinery" id="itinery">
@@ -588,6 +585,90 @@
             }
         })
     </script>
+    <script>
+        
+        document.addEventListener('DOMContentLoaded', () => {
+            const slidesData = [
+              { src: 'img/ked (1).JPG'},
+              { src: 'img/ked (2).JPG'},
+              { src: 'img/ked (3).JPG'},
+              { src: 'img/ked (4).JPG'},
+              { src: 'img/ked (5).JPG'},
+              { src: 'img/ked (6).JPG'},
+              { src: 'img/ked (7).JPG'},
+              { src: 'img/ked (8).JPG'},
+              { src: 'img/ked (9).JPG'},
+              { src: 'img/ked (10).JPG'},
+              { src: 'img/ked (11).JPG'},
+              { src: 'img/ked (12).JPG'},
+              { src: 'img/ked (13).JPG'},
+              { src: 'img/ked (14).JPG'},
+              { src: 'img/ked (15).JPG'},
+              { src: 'img/ked (16).JPG'},
+              { src: 'img/ked (17).JPG'},
+              { src: 'img/ked (18).JPG'},
+              { src: 'img/ked (19).JPG'},
+              { src: 'img/ked (20).JPG'},
+              { src: 'img/ked (21).JPG'},
+            
+              
+             
+              
+             
+                
+            ];
+          
+            const carouselTrack = document.querySelector('.carousel-track');
+          
+            const createSlide = ({ src, description }) => {
+              const slideElement = document.createElement('div');
+              slideElement.className = 'slide3';
+          
+              const imgElement = document.createElement('img');
+              imgElement.src = src;
+              imgElement.alt = description;
+          
+              const overlayElement = document.createElement('div');
+              overlayElement.className = 'overlay3';
+              overlayElement.textContent = description;
+          
+              slideElement.append(imgElement, overlayElement);
+          
+              return slideElement;
+            };
+          
+            const populateCarouselTrack = (slides) => {
+              const fragment = document.createDocumentFragment();
+              slides.forEach(slide3 => fragment.appendChild(createSlide(slide3)));
+          
+              // Duplicate slides to create a seamless loop effect
+              slides.forEach(slide3 => fragment.appendChild(createSlide(slide3)));
+          
+              carouselTrack.appendChild(fragment);
+          
+              const slideWidth = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--slide-width'));
+              const gapWidth = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--gap-width'));
+              const totalWidth = (slideWidth + gapWidth) * slides.length;
+              const duplicatedTotalWidth = totalWidth * 2;
+              const halfTotalWidth = duplicatedTotalWidth / 2;
+          
+              carouselTrack.style.setProperty('--total-width', `${halfTotalWidth}px`);
+          
+              const baseDuration = 40; // secondes | default = 40
+              const baseWidth = 5000; // px | default = 5000
+              const scrollDuration = (halfTotalWidth / baseWidth) * baseDuration;
+          
+              carouselTrack.style.setProperty('--scroll-duration', `${scrollDuration}s`);
+            };
+          
+            populateCarouselTrack(slidesData);
+          });
+          
+        
+        
+        
+        
+            </script>
 
 </body>
 
