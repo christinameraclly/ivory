@@ -119,13 +119,14 @@ body{
 
 .hero-section {
   /* background: url('https://example.com/hero-image.jpg') no-repeat center center/cover; */
-  height: 100vh;
+  height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   color: #fff;
   padding-bottom: 0px;
+
 }
 
 .heading{
@@ -195,7 +196,7 @@ span{
 .about-section {
   /* padding: 10px 20px; */
   text-align: center;
-  padding-bottom: 300px;
+  padding-bottom: 50px;
   
 }
 
@@ -249,11 +250,12 @@ span{
 
 
 .card7{
-  color: white;
-  text-align: center;
+  font-size: 1.5em;
+  color: #f37018;
+  text-align: justify;
   padding-left: 100px;
   padding-right: 100px;
-  line-height: 40px;
+  line-height: 50px;
 
 }
 
@@ -706,9 +708,21 @@ span{
 
 }
 
+.hero-section {
+  /* background: url('https://example.com/hero-image.jpg') no-repeat center center/cover; */
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  padding-bottom: 0px;
+
+  
+}
 
 .hero-content h1 {
-  font-size: 2.2em;
+  font-size: 2.5em;
   margin: 0;
   color:  #f37018;
   padding-top: -150px;
@@ -730,9 +744,10 @@ span{
   font-size: 20px;
   margin: 10px 0;
   color: #fffdfc;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
   line-height: 40px;
+  text-align: justify;
 
 }
 
@@ -766,7 +781,8 @@ span{
 
 
 .about-section {
-  
+
+  padding-bottom: 10px;
   text-align: center;
  
   
@@ -774,7 +790,7 @@ span{
 
 .whyus{
 
- 
+  font-size: 2.5em;
   margin: 0;
   color:  #f37018;
   text-align: center;
@@ -800,14 +816,15 @@ span{
   font-size: 20px;
   color: #ffffff;
   text-align: justify;
-padding-left: 10px;
-padding-right: 10px;
+padding-left: 0px;
+padding-right: 0px;
   line-height: 40px;
  
   
 }
 
 .team-section {
+  padding: 10px 10px;
   text-align: center;
   background-color:  #000000;
 }
@@ -887,7 +904,7 @@ padding-right: 10px;
           }
 
 
-          .about-content, .team-content, .testimonials-content {
+          .about-content, .testimonials-content {
             flex-direction: column;
             padding-right: 40px;
         }
@@ -896,8 +913,14 @@ padding-right: 10px;
             width: 100%;
         }
 
-        .about-item{
-         
+        .card7{
+          font-size: 20px;
+          color: #f37018;
+          text-align: justify;
+          padding-left: 30px;
+          padding-right: 30px;
+          line-height: 40px;
+        
         }
 }
 
