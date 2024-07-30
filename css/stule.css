@@ -2876,7 +2876,7 @@ footer{
     left: 5 0%;
     transform: translate(-50%, -50%);
     width: 100%;
-    height: 800px;
+    height: 850px;
     background: #000000;
     /* box-shadow: 0 30px 50px #dbdbdb; */
   }
@@ -3339,6 +3339,11 @@ footer{
   }
 
 
+  p{
+    font-size: 20px;
+    line-height: 40px;
+  }
+  
   
 .column{
 
@@ -3740,7 +3745,7 @@ ul li{
   .book-now3{
     position:relative;
     padding: 10px 20px;
-   bottom: -150px;
+   bottom:-100px;
    left: 68%;
     
     border:  3px #f37018 solid;
