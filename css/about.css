@@ -406,37 +406,6 @@ padding: 20px;
   color: #ff6347;
 }
 
-@media screen and (max-width: 768px) {
-  .nav-links {
-      display: none;
-      flex-direction: column;
-      width: 100%;
-      background-color: #333;
-      position: absolute;
-      top: 50px;
-      left: 0;
-  }
-
-  .nav-links.active {
-      display: flex;
-  }
-
-  .nav-links li {
-      margin: 10px 0;
-  }
-
-  .burger {
-      display: block;
-  }
-
-  .about-content, .team-content, .testimonials-content {
-      flex-direction: column;
-  }
-
-  .about-item, .team-item, .testimonial-item {
-      width: 100%;
-  }
-}
 
 
 footer body{
@@ -649,103 +618,288 @@ color: #2f2f2f;
 .footer__nav {
   flex: 2 0px;
 }
+}
 
 
-@media screen and (max-width:798px){
+@media screen and (max-width:798px) {
 
   
-  body{
-    font-family: "Tinos", serif;
-       font-weight: 400;
-       font-style: normal;
-       background: #000000;
-       overflow-x: hidden;
-       font-size: small;
-  }
-
-       .navbar{
-        height: 100px;
-        right: 500px;
-        position: relative;
-        margin-top: 20px;
-  
-    }
-    
-  .link-item{
-      margin-top: 0px;
-      text-align: center;
-  }
-  .link-item:nth-child(3){
-      margin: -75px -30px 0 -30px;
-  }
-  .link-item a{
-      font-size: small ;
-      margin: auto;
-      display: block;
-      padding-right:0px ;
-      padding-left: 0px;
-      white-space: nowrap;
-    
-  }
-
-  .logo{
-    height: 40px;
-    opacity: 100%;
-   
-  }
-
-
-  nav {    
-    display: block;
-    text-align: center;
-    
-  }
-  nav ul {
-    margin: 0;
-    padding:0;
-    list-style: none;
-  }
-  .nav a {
-    display:block; 
-    background: #111; 
-    color: #fff; 
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 20%;
-    letter-spacing: 1px;
-    text-shadow: 0 -1px 0 #030303;
+  .navbar{
+    height: 50px;
+    right: 500px;
     position: relative;
-    height: 40px;
-    
-    
-    
-    
-  }
-  .nav{  
-    vertical-align: top; 
-    display: inline-block;
-    box-shadow: 
-      1px -1px -1px 1px #000, 
-      -1px 1px -1px 1px #fff, 
-      0 0 6px 3px #fff;
-    border-radius:6px;
-  
-  
-  }
+    margin-top: 20px;
 
-  .nav-type{
-    display: none;
-  }
+}
+
+.link-item{
+    margin-top: 0px;
+    text-align: center;
+}
+.link-item:nth-child(3){
+    margin: -75px -30px 0 -70px;
+}
+.link-item a{
+    font-size: small ;
+    margin: auto;
+    display: block;
+    padding-right:0px ;
+    padding-left: 0px;
+    white-space: nowrap;
+  
+}
+
+.logo{
+  height: 40px;
+  opacity: 100%;
+ 
+}
+
+
+nav {    
+  display: block;
+  text-align: center;
+  
+}
+nav ul {
+  margin: 0;
+  padding:0;
+  list-style: none;
+}
+.nav a {
+  display:block; 
+  background: #111; 
+  color: #fff; 
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20%;
+  letter-spacing: 1px;
+  text-shadow: 0 -1px 0 #030303;
+  position: relative;
+  height: 40px;
+  
+  
+  
+  
+}
+.nav{  
+  vertical-align: top; 
+  display: inline-block;
+  box-shadow: 
+    1px -1px -1px 1px #000, 
+    -1px 1px -1px 1px #fff, 
+    0 0 6px 3px #fff;
+  border-radius:6px;
 
 
 }
 
+.nav-type{
+  display: none;
 }
+
 
 
 span{
   color:#f37018 ;
-  /* font-size: 20px; */
+  font-size: 20px;
 
 }
+
+
+.hero-content h1 {
+  font-size: 2.2em;
+  margin: 0;
+  color:  #f37018;
+  padding-top: -150px;
+
+
+
+}
+
+
+.heading{
+
+  font-size: 20px;
+  padding: 20px;
+  color:  #f37018;
+
+}
+
+.hero-content p {
+  font-size: 20px;
+  margin: 10px 0;
+  color: #fffdfc;
+  padding-left: 50px;
+  padding-right: 50px;
+  line-height: 40px;
+
+}
+
+.hero-content1{
+  font-size: 20px;
+  margin: 10px 0;
+  color:  #f37018;
+}
+.hero-content2{
+  font-size: 20px;
+  margin: 10px 0;
+  color:  #ffffff;
+  padding-bottom: 10px;
+  line-height: 40px;
+}
+
+
+.about-section h2 {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+
+.about-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+
+
+.about-section {
+  
+  text-align: center;
+ 
+  
+}
+
+.whyus{
+
+ 
+  margin: 0;
+  color:  #f37018;
+  text-align: center;
+}
+
+.team-section h2 {
+  font-size: 2.2em;
+  margin-bottom: 20px;
+}
+
+.team-item h3 {
+  font-size: 2em;
+  margin-top: 50px;
+  color: #f37018;
+}
+
+.team-item h4{
+  font-size: 1.5em;
+
+}
+
+.team-item p {
+  font-size: 20px;
+  color: #ffffff;
+  text-align: justify;
+padding-left: 10px;
+padding-right: 10px;
+  line-height: 40px;
+ 
+  
+}
+
+.team-section {
+  text-align: center;
+  background-color:  #000000;
+}
+
+.card10{
+  font-size: 20px;
+  color: white;
+  text-align: justify;
+  padding-left: 30px;
+  padding-right: 30px;
+  line-height: 40px;
+  padding-bottom: 100px;
+
+  
+}
+
+.testimonials-section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.nav__title {
+  font-weight: 400;
+  font-size: 28px;
+  color: #ffffff;
+  text-decoration: underline;
+  text-decoration-color: #f37018;
+    padding-bottom: 20px;
+  
+  }
+
+  .nav__ul a {
+    color: #fbfbfb;
+      font-size: 20px;
+      text-align: center;
+    }
+
+    .footer {
+      display: flex;
+      flex-flow: row wrap;
+      padding: 50px 30px 50px 30px;
+      color: #2f2f2f;
+      background-color: #000000;
+      border-top: 1px solid #f37018;
+      border:3px solid #f37018;
+      
+      }
+
+
+      .footer__logo {
+
+        width: 100px;
+        height: 90px;
+        color: #f37018;
+        }
+        
+        .footer__logo1 {
+        
+        width: 100px;
+        height: 70px;
+        color: #f37018;
+        }
+
+        .row i{
+          padding-left: 20px;
+              transition:0.5s;
+          color: white;
+        }
+        .legal {
+
+          color: #fafafa;
+          padding-top: 40px;
+          padding-bottom: 0px;
+          text-align: center;
+          font-size: 8px;
+      
+          }
+
+
+          .about-content, .team-content, .testimonials-content {
+            flex-direction: column;
+            padding-right: 40px;
+        }
+      
+        .about-item, .team-item, .testimonial-item {
+            width: 100%;
+        }
+
+        .about-item{
+         
+        }
+}
+
+
 
