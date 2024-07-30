@@ -65,6 +65,49 @@ $phone = $_POST['phone']
             document.getElementById('rzp-button1').click();
         }
     </script>
+
+<script>
+
+session_start();
+
+function generate_csrf_token() {
+    if (empty($_SESSION['csrf_token'])) {
+        $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
+    }
+    return $_SESSION['csrf_token'];
+}
+
+function validate_csrf_token($token) {
+    return hash_equals($_SESSION['csrf_token'], $token);
+}
+
+
+session_start();
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    if (!validate_csrf_token($_POST['csrf_token'])) {
+        die("Invalid CSRF token");
+    }
+
+    // Sanitize and validate inputs
+    $name = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_STRING);
+    $email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
+    $phone = filter_input(INPUT_POST, 'phone', FILTER_SANITIZE_NUMBER_INT);
+    $theme = filter_input(INPUT_POST, 'theme', FILTER_SANITIZE_STRING);
+    $plan = filter_input(INPUT_POST, 'plan', FILTER_VALIDATE_INT);
+    $qty = filter_input(INPUT_POST, 'qty', FILTER_VALIDATE_INT);
+    $total = filter_input(INPUT_POST, 'total', FILTER_VALIDATE_INT);
+    $date = filter_input(INPUT_POST, 'date', FILTER_SANITIZE_STRING);
+
+    // Additional server-side validation
+    if ($name && $email && $phone && $theme && $plan && $qty && $total && $date) {
+        // Process the payment
+    } else {
+        die("Invalid input");
+    }
+}
+
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 
