@@ -2398,7 +2398,7 @@ span{
 }
 
 
-.column {
+.column{
 
 
   color: #fff;
@@ -3264,6 +3264,18 @@ footer{
    
   }
 
+
+  
+.column{
+
+
+  color: #fff;
+  padding-left: 30px;
+  padding-right: 30px;
+  
+  
+}
+
   
 .overview-content1{
   text-align: justify;
@@ -3324,7 +3336,7 @@ footer{
   color: #f37018;
   margin-top:24px;
   width: 100%;
-  height: 100px;
+  height: 130px;
   border-radius: 10px;
   /* border: 1px solid #2D2D2D; */
   /* background: #161813; */
@@ -3410,8 +3422,8 @@ footer{
   margin: 20px 0;
   font-size: 22px;
   color: white;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 
@@ -3582,8 +3594,9 @@ ul li{
     letter-spacing: 0.10cap;
     bottom: 0;
     text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 0px;
+    padding-right: 150px;
+    align-items: center;
 
  
 }
@@ -3600,12 +3613,19 @@ ul li{
 
 
 
+.kedar-img{
+  width: 100%;
+  height: 570px;
+  object-fit: cover;
+  object-position: center;
+  }
+
 
 
 .kedar-section-title1{
 
   font-weight: 300;
-  font-size: 30px;
+  font-size: 45px;
   text-transform: capitalize; 
   background: linear-gradient(to top,   #ff6600, 
    #f37018, #ffffff, #eedd44); 
@@ -3617,6 +3637,7 @@ ul li{
   right: -120px; ;
   padding-top: -50px;
   bottom: 0;
+  align-items: center;
 
 }
 
@@ -3640,7 +3661,7 @@ ul li{
   .book-now3{
     position:relative;
     padding: 10px 20px;
-   bottom: -250px;
+   bottom: -150px;
    left: 68%;
     
     border:  3px #f37018 solid;
