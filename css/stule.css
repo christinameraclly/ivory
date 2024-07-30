@@ -3238,6 +3238,16 @@ footer{
    
   }
   
+  /* Dropdown Arrow Styling */
+.nav li a:first-child:nth-last-child(2):before { 
+  content: ""; 
+  position: absolute; 
+  height: 0; 
+  width: 0; 
+  border: 5px solid transparent; 
+  top: 60%;
+  right: 5px;
+}
 
 
   .compass{
