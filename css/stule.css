@@ -3265,6 +3265,11 @@ footer{
   }
 
 
+  p{
+    font-size: 20px;
+    line-height: 40px;
+  }
+  
   
 .column{
 
@@ -3661,7 +3666,7 @@ ul li{
   .book-now3{
     position:relative;
     padding: 10px 20px;
-   bottom: -150px;
+   bottom:-100px;
    left: 68%;
     
     border:  3px #f37018 solid;
