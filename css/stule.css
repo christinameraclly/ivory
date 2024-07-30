@@ -3085,9 +3085,15 @@ footer{
 @media screen and (max-width:798px){
 
   
-
-
-
+  /* html,body{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+  } */
+  
+  
   .navbar{
       height: 100px;
       right: 500px;
@@ -3374,6 +3380,7 @@ font-size: 27px;
 ul li{
   font-size: 20px;
   line-height: 40px;
+
 }
 
 .faq-drawer__title {
